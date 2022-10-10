@@ -1,6 +1,7 @@
-FROM python:3
+FROM python:3.7
 ENV PYTHONUNBUFFERED 1
 WORKDIR /web
 COPY . .
 RUN pip install --upgrade pip
-RUN pip install Django psycopg2 djangorestframework requests gunicorn whitenoise ipdb
+RUN pip install -r requirements.txt
+CMD python manage.py runserver 0.0.0.0:$PORT
