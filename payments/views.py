@@ -201,7 +201,7 @@ def cancelapi(request):
   paymentKey = "ly05n91dEvLex6BJGQOVDx77Rov9kVW4w2zNbgaYRMPoqmDX"
       
   #부분 취소에서만 사용
-  cancelAmount = 300
+  cancelAmount = 500
       
   #refundReceiveAccount - 가상계좌 거래에 대해 입금후에 취소하는 경우만 필요
   bank = "국민"
