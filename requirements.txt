@@ -6,3 +6,4 @@ dj_database_url
 whitenoise
 gunicorn
 django-heroku
+django-cors-headers
