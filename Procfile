@@ -1,1 +1,1 @@
-web: gunicorn tampayments.wsgi --log-file -
+web: gunicorn tampayments.wsgi
