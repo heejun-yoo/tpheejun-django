@@ -2,6 +2,3 @@ Django
 psycopg2
 djangorestframework
 requests
-gunicorn
-whitenoise
-ipdb

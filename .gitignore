@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+
+.Python
+venv/
+
+db.splite3
+.DS_Store
+
+.vscode/
