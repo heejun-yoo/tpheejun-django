@@ -1,0 +1,22 @@
+{
+  "family": "tptamyoo-ecs",
+  "executionRoleArn": "arn:aws:iam::412802977386:role/ecsTaskExecutionRole",
+  "networkMode": "awsvpc",
+  "containerDefinitions": [
+    {
+      "name": "tptamyoo",
+      "image": "412802977386.dkr.ecr.ap-northeast-2.amazonaws.com/tptamyoo",
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "hostPort": 8080,
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true
+    }
+  ],
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "512",
+  "memory": "1024"
+}
